@@ -1,6 +1,6 @@
 [Core]
-Name = setupbot
-Module = setupbot
+Name = setupBot
+Module = setupBot
 
 [Documentation]
 Description = setupbot provisions customers
