@@ -15,6 +15,6 @@ class setupBot(BotPlugin):
         Feel free to tweak me to experiment with Errbot.
         You can find me in your init directory in the subdirectory plugins.
         """
-        token = self.config['ID_TOKEN']
-        requests.get(self.config['URLBASE'] + token + "/" + args, verify=True)
+        #token = self.config['ID_TOKEN']
+        #requests.get(self.config['URLBASE'] + token + "/" + args, verify=True)
         return 'args: ' + args + " message: " + msg
