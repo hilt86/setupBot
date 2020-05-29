@@ -1,9 +1,9 @@
 [Core]
-Name = Example
-Module = example
+Name = setupbot
+Module = setupbot
 
 [Documentation]
-Description = This is a simple plugin example to get you started.
+Description = setupbot provisions customers
 
 [Python]
 Version = 2+
