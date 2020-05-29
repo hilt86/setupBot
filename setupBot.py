@@ -17,4 +17,4 @@ class setupBot(BotPlugin):
         """
         #token = self.config['ID_TOKEN']
         #requests.get(self.config['URLBASE'] + token + "/" + args, verify=True)
-        return 'args: ' + args + " message: " + msg
+        return 'args: ' + str(args) + " message: " + str(msg)
